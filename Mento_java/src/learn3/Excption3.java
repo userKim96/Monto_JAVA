@@ -1,0 +1,26 @@
+package learn3;
+
+public class Excption3 {
+	public static void main(String[] args) {
+		int age = -19;
+		try {
+			ticketing(age);
+		}
+		catch(AgeException e) {
+			e.printStackTrace();
+		}
+	
+	}
+	public static void ticketing(int age) throws AgeException{
+		if(age < 0) {
+			throw new AgeException("나이를 잘못 입력하셨습니다.");
+		}
+	}
+}
+class AgeException extends Exception{
+	public AgeException() {}
+	public AgeException(String messge) {
+		super(messge);
+	}
+	
+}
