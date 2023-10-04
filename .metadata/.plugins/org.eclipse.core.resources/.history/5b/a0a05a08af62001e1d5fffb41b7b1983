@@ -1,0 +1,24 @@
+package learn4;
+
+public class StringEx1 {
+	public static void main(String[] args) {
+		String str = "Hello";
+		System.out.println(str.concat(" World"));
+		//concat : 문자열 연결
+		
+		System.out.println(str.substring(2, 4));
+		//substring : 시작 위치 ~ 끝 위치전까지 가져온다.
+
+		System.out.println(str.length());
+		//length : 문자열의 길이
+
+		System.out.println(str.toUpperCase());
+		//length : 문자열의 길이
+
+		System.out.println(str.toLowerCase());
+		//length : 문자열의 길이
+		
+		
+		
+	}
+}

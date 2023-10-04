@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Mento_java/src/learn4/Untitled 3&apos; to &apos;memo&apos;" description="Rename resource &apos;Untitled 3&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/learn4/Untitled 3" name="memo" stamp="1696420200304" updateReferences="true"/>
+</session>
