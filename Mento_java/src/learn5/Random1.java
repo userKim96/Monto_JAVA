@@ -1,0 +1,30 @@
+package learn5;
+
+import java.util.Random;
+
+public class Random1 {
+
+	public static void main(String[] args) {
+		Random random1 = new Random();
+		Random random2 = new Random();
+		Random random3 = new Random(2);
+		Random random4 = new Random(2);
+		
+		System.out.println(System.currentTimeMillis());
+		
+		for(int i=0; i<5; i++) {
+			System.out.println("random1 : " + random1.nextInt());
+		}
+		for(int i=0; i<5; i++) {
+			System.out.println("random2 : " + random2.nextInt());
+		}
+		for(int i=0; i<5; i++) {
+			System.out.println("random3 : " + random3.nextInt());
+		}
+		for(int i=0; i<5; i++) {
+			System.out.println("random4 : " + random4.nextInt());
+		}
+
+	}
+
+}
