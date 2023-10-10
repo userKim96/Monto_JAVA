@@ -1,0 +1,14 @@
+ 1. Java.util 패키지
+
+ java 프로그래밍에 유용한 클래스들을 모아둔것
+ 
+ 2. 시간 처리
+ 
+ 1] System.currentTimeMills()
+   - 현재 운영체제의 시간을 long 타입으로 반환.
+  
+ 2] java.util.Calendar
+   - java에서 제공하는 날짜 관리 클래스
+   
+ 3] java.util.Date
+   - java에서 제공하는 날짜 관리 클래스
